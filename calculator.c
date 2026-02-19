@@ -6,17 +6,16 @@ int main() {
 
     printf("===== BASIC CALCULATOR =====\n");
 
-    // Input
+   
     printf("Enter first number: ");
     scanf("%f", &num1);
 
     printf("Enter operator (+, -, *, /, %): ");
-    scanf(" %c", &op);   // space before %c is important
+    scanf(" %c", &op);  
 
     printf("Enter second number: ");
     scanf("%f", &num2);
 
-    // Processing
     switch(op) {
         case '+':
             result = num1 + num2;
@@ -53,3 +52,4 @@ int main() {
 
     return 0;
 }
+
